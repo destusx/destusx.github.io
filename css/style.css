@@ -1,0 +1,212 @@
+* {
+    font-family: "Museo Sans Cyrl", sans-serif;
+}
+
+header {
+    position: relative;
+    height: 50px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 51px;
+    background: #212121;
+    z-index: 1;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 71px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-weight: 500;
+    font-size: 15px;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu_item {
+    border-right: 2px dotted #ccb0b0;
+    padding-right: 42px;
+}
+
+.subheader {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    min-height: 84px;
+    background: rgba(0, 0, 0, .6)
+}
+
+.subheader .subheader_logo {
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+}
+
+.subheader_official {
+    font-weight: 500;
+    font-size: 13px;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.subheader_call {
+    margin-top: 22px;
+    font-weight: 500;
+    font-size: 12px;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.subheader_phone {
+    margin-top: 7px;
+    display: block;
+    font-size: 22px;
+    line-height: 12px;
+    align-items: center;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.subheader_btn {
+    margin-top: 20px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    border: none;
+}
+
+.promo {
+    padding: 150px 0 186px 0;
+    min-height: 799px;
+    background: url('../img/bg/uber_bg.jpg') center center/cover no-repeat;
+}
+
+.promo .promo_header {
+    margin: 0;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo .promo_subheader {
+    margin: 0;
+    margin-top: 22px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo .promo_descr {
+    margin-top: 22px;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 115px;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    border: none;
+}
+
+.label {
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 5px 12px;
+    width: 112px;
+    height: 24px;
+    background: #000000;
+    font-size: 11px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.title {
+    margin-top: 33px;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.reason_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.reason_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background: #1EACC7;
+    border-radius: 100%;
+}
+
+.reason_descr {
+    width: 371px;
+}
+
+.reason_subtitle {
+    font-size: 17px;
+    line-height: 21px;
+    align-items: center;
+    color: #1EACC7;
+}
+
+.reason_text {
+    margin-top: 5px;
+    font-size: 15px;
+    line-height: 21px;
+    align-items: center;
+    color: #202020;
+}
